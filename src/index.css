@@ -1,0 +1,56 @@
+:root {
+--pure-white: #fff;
+--pure-black: #000;
+--white: #e5e5e5;
+--black: #212121;
+--font: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  color: var(--black);
+  text-rendering: optimizeSpeed;
+  background-color: var(--white);
+  font: normal 1rem/1.5 var(--font);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  color: var(--white);
+  border-radius: 0.5rem;
+  padding: 0.125em 0.5em;
+  background-color: var(--black);
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
